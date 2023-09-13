@@ -9,11 +9,12 @@ public class Binary_Search {
 //		Helper variable for recursive binary search
 //		int left = 0;
 //		int right = a.length -1;
-
+	
 		int result = binarySearch(a, target);
+		
 		//Recursive binary search
 //		int result = recursiveBinarySearch(a, target, left, right);
-
+		
 		if (result != -1) {
 			System.out.println("Target Value Found At Index: " + result);}
 		else {
