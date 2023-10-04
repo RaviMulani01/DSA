@@ -19,7 +19,6 @@ public class Print1toN_InArray {
         if(x<1){
             return null;
         }
-
         int[] array = new int[x];
         int i = 0;
         genrateArr(array,x,i);
@@ -27,6 +26,7 @@ public class Print1toN_InArray {
 
     }
 
+    //create function to add value
     public static void genrateArr(int [] array, int x, int idx){
         if(idx<x){
             array[idx] = idx + 1;
